@@ -1,5 +1,5 @@
 # FCSL
-Implementation of paper "FCSL: Faster-Convergence Split Federated Learning on Asymmetrical Knowledge Density"
+Implementation of paper "FCSL: Faster-Convergence Split Federated Learning via Knowledge-Centric Training"
 ## Overview
 <img src="./Model.png">
 FCSL leverages an efficient collaboration learning in a "first coarse-grained training and then fine-grained
