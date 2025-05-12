@@ -1,0 +1,1 @@
+{"client_model_name": "ResNet18ClientNetwork", "server_model_name": "ResNet18ServerNetwork", "num_users": 100, "type": "cifar10", "num_dataclasses": 10, "global_epochs": 200, "anchor_epochs": 100, "anchor_clients": 3, "local_epochs": 1, "batch_size": 128, "lr": 0.01, "momentum": 0.9, "lambda": 0.9, "non_iid": {"type": "dirichlet", "dirichlet_beta": 0.5}}

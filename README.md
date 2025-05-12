@@ -1,9 +1,8 @@
 # FCSL
-Implementation of paper "FCSL: Faster-Convergence Split Federated Learning on Asymmetrical Knowledge Density"
-## Overview
-<img src="./Model.png">
-FCSL leverages an efficient collaboration learning in a "first coarse-grained training and then fine-grained
-tuning" manner, to train an optimal global model under situation of Asymmetric Knowledge Density.
+This code example demonstrates a single-host implementation of the methodology proposed in the paper "Knowledge-Centric Split Federated Learning with Partial Client Participation for Non-IID Data".
+
+
+
 
 ## Use the code
 
@@ -13,7 +12,7 @@ tuning" manner, to train an optimal global model under situation of Asymmetric K
 
 ### Configurations
 1. Different experimental settings can be configured by `json-config.py`. 
-2. For example: `python json-config.py -c ./utils/conf.json -dt "cifar10" -nu 10 -ac 3 -nd 10 -db 0.5`, where the dataset is CIFAR10, total number of clients is 10, the number of anchor clients is 3, and the coefficients of the Dirichlet distribution is 0.5.
+2. For example: `python json-config.py -c ./utils/conf.json -dt "cifar10" -nu 10 -nd 10 -db 0.5`, where the dataset is CIFAR10, total number of clients is 10, and the coefficients of the Dirichlet distribution is 0.5.
 
 ### Run
 To run FCSL, simply call `python main.py -c ./utils/conf.json`.
